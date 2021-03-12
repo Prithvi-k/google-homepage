@@ -1,0 +1,42 @@
+<style>
+/* Navbar */
+        header {
+            width: 100%;
+        }
+
+        #Sign_in {
+            
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+
+        li {
+            display: inline;
+            padding: 10px;
+        }
+
+        img {
+            object-fit: contain;
+            object-position: center;
+        }
+
+/* Logo */
+
+        .google {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+    
+/* Form */
+
+        form {
+            text-align: center;
+            border-radius: 25px;
+        }
+</style>
