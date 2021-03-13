@@ -7,6 +7,7 @@
 
 body {
     font-family: "Roboto";
+    position: relative;
 }
 
 /* Navbar */
@@ -122,6 +123,16 @@ body {
         }
 
 /* Footer */
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            background-color: #F2F2F2;
+            width: 100%;
+        }
+        .footer a {
+            padding: 10px 30px !important;
+        }
         .footer_list {
             width: 100% !important;
             color: #70757A;
@@ -129,18 +140,17 @@ body {
         }
         .left {
             float: left !important;
-            width: 50% !important;
-            text-align: left !important;
-            padding: 15px !important;
-            display: inline !important;
         }
         .right {
             float: right !important;
-            width: 50% !important;
-            text-align: right !important;
-            padding: 15px !important;
-            display: inline !important;
         }
+
+        .left:hover{
+            text-decoration: underline;
+        }
+        .right:hover {
+            text-decoration: underline;
+    }
         
 
 </style>
