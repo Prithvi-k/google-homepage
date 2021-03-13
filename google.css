@@ -1,42 +1,146 @@
 <style>
+
+@font-face {
+    font-family: "Roboto";
+    src: url(https://fonts.googleapis.com/css?family=Roboto) format(woff2)
+}
+
+body {
+    font-family: "Roboto";
+}
+
 /* Navbar */
         header {
             width: 100%;
         }
 
-        #Sign_in {
-            
-        }
-
         ul {
             list-style-type: none;
             margin: 0;
-            padding: 0;
+            padding-top: 5px !important;
             float: right;
         }
 
         li {
             display: inline;
             padding: 10px;
+            margin-top: 10px;
         }
 
         img {
             object-fit: contain;
             object-position: center;
         }
+        #Sign_in {
+            background-color: #1B74E8;
+            margin-right: 25px;
+            font-weight: bold;
+            padding: 7px 15px;
+            color: white;
+            border-radius: 4px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        #Sign_in:hover {
+            box-shadow: 1px 1px 5px #999;
+            background-color: #2B7DE9;
+        }
+
+        a.link:hover {
+            text-decoration: underline;
+        }
+
+        .link {
+            color: #404040;
+            font-weight: 600;
+        }
 
 /* Logo */
-
-        .google {
+        .logo {
+            width: fit-content;
             display: block;
-            text-align: center;
-            margin: 0 auto;
+            margin: 0 auto !important;
+            float: none !important;
+            padding-top: 150px;
+            padding-bottom: 25px;
         }
     
 /* Form */
-
-        form {
-            text-align: center;
-            border-radius: 25px;
+        .Search {
+            width: 100%;
         }
+
+        #form_search {
+            margin-left: 33.5%;
+            margin-right: 35%;
+            padding: 12px 20px;
+            position: relative;
+            width: 30%;
+            text-align: left !important;
+            border-radius: 35px;
+            border: 0.5px solid lightgrey;
+        }
+
+        #form_search:hover {
+            border-color: #e4e4e4;
+            -webkit-box-shadow: 0 0 10px lightgrey;
+        }
+/* Buttons */
+        .buttons {
+            text-align: center;
+            padding-top: 30px;
+            margin-bottom: 300px;
+        }
+        #Google_Search {
+            background-color: #F8F9FA;
+            border-color: #F8F9FA;
+            padding: 12.5px 12.5px 12.5px 12.5px;
+            color: #3C4043;
+            border: none;
+            margin-right: 3px;
+        }
+        #Lucky {
+            background-color: #F8F9FA;
+            border-color: #F8F9FA;
+            padding: 12.5px 12.5px 12.5px 12.5px;
+            color: #3C4043;
+            border: none;
+            margin-left: 3px;
+        }
+        .button {
+            border-radius: 4px;
+        }
+        #Google_Search:hover {
+            -webkit-box-shadow: 0 0 0.2px #AEAFB2;
+        }
+        #Lucky:hover {
+            -webkit-box-shadow: 0 0 0.2px #AEAFB2;
+        }
+
+/* Footer */
+        .footer_list {
+            width: 100% !important;
+            color: #70757A;
+            font-weight: bold;
+        }
+        .left {
+            float: left !important;
+            width: 50% !important;
+            text-align: left !important;
+            padding: 15px !important;
+            display: inline !important;
+        }
+        .right {
+            float: right !important;
+            width: 50% !important;
+            text-align: right !important;
+            padding: 15px !important;
+            display: inline !important;
+        }
+        
+
 </style>
